@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/lucassoaresfr/go-api.git/config"
-	"github.com/lucassoaresfr/go-api.git/router"
+	"github.com/Comal-Developers1/oracle-grafana-API.git/go-api/config"
+	"github.com/Comal-Developers1/oracle-grafana-API.git/go-api/router"
 )
 
 var (

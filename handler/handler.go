@@ -1,16 +1,13 @@
 package handler
 
 import (
-	"github.com/lucassoaresfr/go-api.git/config"
-	"gorm.io/gorm"
+	"github.com/Comal-Developers1/oracle-grafana-API.git/go-api/config"
 )
 
 var (
-	logger *config.Logger
-	db     *gorm.DB
+	Logger *config.Logger // Letra Maiúscula para exportar
 )
 
 func InitHandle() {
-	logger = config.GetLogger("handler")
-	db = config.GetSqLite()
+	Logger = config.GetLogger("handler")
 }
